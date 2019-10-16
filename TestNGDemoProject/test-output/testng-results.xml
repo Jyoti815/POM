@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7625" started-at="2019-10-10T04:58:16Z" finished-at="2019-10-10T04:58:23Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7625" started-at="2019-10-10T04:58:16Z" finished-at="2019-10-10T04:58:23Z">
+      <class name="mytestngpackage.ExtentReportdemo">
+        <test-method status="PASS" signature="checktitle()[pri:0, instance:mytestngpackage.ExtentReportdemo@58651fd0]" name="checktitle" duration-ms="7588" started-at="2019-10-10T10:28:16Z" finished-at="2019-10-10T10:28:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checktitle -->
+      </class> <!-- mytestngpackage.ExtentReportdemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

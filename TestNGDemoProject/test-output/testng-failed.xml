@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="listenderdemosuitelevel.Listenerimplementation"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="listenderdemosuitelevel.AlwaysTrue">
+        <methods>
+          <include name="startapp"/>
+          <include name="checkurl"/>
+        </methods>
+      </class> <!-- listenderdemosuitelevel.AlwaysTrue -->
+      <class name="listenderdemosuitelevel.VerifyGooglePageTest">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="setbrowser"/>
+          <include name="checkurl"/>
+        </methods>
+      </class> <!-- listenderdemosuitelevel.VerifyGooglePageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
