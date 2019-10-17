@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  
+  <groups>
+  <run>
+  <exclude name="smoke"/>
+  <include name="regression"/>
+    </run>
+  </groups>
+  
+    <classes>
+      <class name="mygroup.Testgroup1"/>
+      <class name="mygroup.Testgroup2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

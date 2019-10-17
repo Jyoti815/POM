@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18411" started-at="2019-10-11T05:45:02Z" finished-at="2019-10-11T05:45:21Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18411" started-at="2019-10-11T05:45:02Z" finished-at="2019-10-11T05:45:21Z">
+      <class name="Mygridprj.griddemo">
+        <test-method status="PASS" signature="testlogin()[pri:0, instance:Mygridprj.griddemo@5419f379]" name="testlogin" duration-ms="18364" started-at="2019-10-11T11:15:03Z" finished-at="2019-10-11T11:15:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogin -->
+      </class> <!-- Mygridprj.griddemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
